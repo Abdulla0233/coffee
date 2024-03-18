@@ -1,0 +1,67 @@
+#meet
+    background-color: #b78752
+    .box
+        position: relative
+        overflow: hidden
+        max-height: 450px
+        border-radius: 10px
+        .textbox
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(188, 108, 37, 1))
+            position: absolute
+            z-index: 2
+            top: 0
+            right: 0
+            left: 0
+            bottom: 0
+            padding: 30px
+            display: flex
+            align-items: end
+            h1
+                color: #ffff
+                font-weight: 700
+                font-size: 20px
+                margin-bottom: 4px
+            h3
+                background-color: #b66916
+                border-radius: 50px     
+                padding: 6px 25px
+                border: 1px solid #ffff
+                color: #ffff
+                font-size: 16px
+                font-weight: 700
+                margin-left: 30px
+    .wid
+        h1
+            font-size: 46px
+            font-weight: 600
+            margin: 10px 0 50px 0
+        h1,h2
+            color: #ffff
+        h2
+            font-size: 18px
+    @media screen and ( max-width: 1199px)
+        .box
+            .textbox
+                h3
+                    padding: 6px 10px
+    @media screen and ( max-width: 992px)
+        .box
+            .textbox
+                h3
+                    font-size: 11px
+                    padding: 6px 7px
+                h1 
+                    font-size: 12px
+    @media screen and ( max-width: 768px )
+        .box
+            margin-bottom: 20px
+            .textbox
+                h3
+                    font-size: 18px
+                    padding: 6px 12px
+                h1 
+                    font-size: 16px
+
+        
+        
+                
